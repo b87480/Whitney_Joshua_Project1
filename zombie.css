@@ -1,0 +1,100 @@
+
+
+
+body {
+	background-color:black;
+}
+
+header {
+	font-family:"Copperplate Gothic Bold",sans-serif;
+	color:red;
+	font-size:28px;
+	text-align:center;
+}
+h1, h2, h4, a, p {
+	color:red;
+}
+
+fieldset {
+	border-color:#F00;
+    border-style: dotted;
+    margin-left:10px;
+    margin-right:10px;
+
+  
+}
+legend {
+	color:#800000;
+	font-size:25px;
+	margin-top:20px;
+	padding:30px;
+}
+input {
+	margin-top:10px;
+	color:green;
+}	
+form {
+	color:white;
+	
+	
+}
+select {
+	margin-top:50px;
+	margin-bottom:30px;
+}
+textarea {
+	margin-top:50px;
+	
+}
+.labelHead {
+	position:relative;
+	margin-bottom:20px;
+	padding-bottom:60px;
+}	
+.headLabel {
+	font-family:"Copperplate Gothic Bold",sans-serif;
+	color:red;
+	position:absolute;
+	font-size:20px;
+	margin-top:10px;
+}
+#lastname, #female, #whenever{
+	margin-bottom:20px;
+}
+#male, #immediate, #deadLine, #stars {
+	margin-top:50px;
+}
+#intro {
+	text-align:center;
+}
+
+nav {
+	margin-left:20px;
+	margin-bottom:20px;
+}
+
+ul {
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+}
+
+li {
+	float:left;
+	
+}
+
+a:link,a:visited {
+	display:block;
+	height:20px;
+	font-weight:bold;
+	color:#FFFFFF;
+	background-color:transparent;
+	text-align:center;
+	padding:20px;
+	text-decoration:none;
+	text-transform:uppercase;
+}
+
+

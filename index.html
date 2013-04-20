@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <!-- Joshua Whitney -->
 <!-- VFW 1304 -->
-<!-- Assignment 1 -->
+<!-- Assignment 2 -->
+
 <html lang="en">
 	<head>
 		<meta charset="utf-8" />
@@ -10,14 +11,10 @@
 		<meta name="ROBOTS" content="index, nofollow" />
 		<meta name="viewport" content="width=device-width; initial-scale=1.0" />
 		<meta name="author" content="Joshua Whitney" />
+		
+		<link rel="stylesheet" type="text/css" href="zombie.css">
 
-<style type="text/css">
-body {background-color:black;}
-h1 {color:red;}
-h2 {color:red;}
-a {color:red;}
-p {color:red;}
-</style>
+
 		<title>Zombie Hit List</title>	
 	</head>
 
@@ -27,14 +24,14 @@ p {color:red;}
 				<h1>ZOMBIE HIT LIST</h1>
 			</header>
 			
-			<h2>This is a list of Zombies that need to be whacked immediately!</h2>
+			<h2 id="intro">This is a list of Zombies that need to be whacked immediately!</h2>
 			<nav>
-				<p>
-					<a href="index.html">Home</a>
-				</p>
-				<p>
-					<a href="addZombie.html">Add a Zombie!</a>
-				</p>
+				<ul>
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="addZombie.html">ADD ZOMBIE!</a></li>
+					<li><a href="showzombie" id="showzombie">SHOW ZOMBIE</a></li>
+					<li><a href="clearzombie" id="clearzombie">CLEAR ZOMBIE</a></li>
+				</ul>
 			</nav>
 
 			<footer>
@@ -43,5 +40,6 @@ p {color:red;}
 				</p>
 			</footer>
 		</div>
+		<script src="zombie.js" type="text/javascript"></script>
 	</body>
 </html>
