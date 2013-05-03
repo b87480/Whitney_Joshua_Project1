@@ -1,5 +1,14 @@
 
+#newLi {
+	color:red;
+	
+}
 
+#newDiv {
+	color:red;
+	font-size:28px;
+	text-align:center
+}
 
 body {
 	background-color:black;
@@ -11,7 +20,7 @@ header {
 	font-size:28px;
 	text-align:center;
 }
-h1, h2, h4, a, p {
+h1, h2, h4, a, p, text {
 	color:red;
 }
 
@@ -97,4 +106,10 @@ a:link,a:visited {
 	text-transform:uppercase;
 }
 
-
+.print {
+	color:white;
+	display:block;
+	font-size:20px;
+	float:none;
+	
+}
